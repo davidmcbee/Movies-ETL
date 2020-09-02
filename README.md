@@ -15,8 +15,8 @@ The source data is uncleanded so Extract, Transform adn Load (ETL) was performed
 ### Step 1, Extract
 
 The three files were extracted in Python. Using Jupyter Notebooks along with Pandas, Numpy, psycopg2 and sqlalchemy the kaggle sourced movies_metadata csv file,
-available to view here (https://github.com/davidmcbee/Movies-ETL/blob/master/Data/movies_metadata.csv) and the ratings csv file, available to view here (https://github.com/davidmcbee/Movies-ETL/blob/master/Data/ratings.csv) where brought into a Jupyter notebook and put into dataframes. The Wikipedia json file
-was loaded into a list and then to a dataframe, avialable here (https://github.com/davidmcbee/Movies-ETL/blob/master/Data/wikipedia-movies.json). The json code is available to view here (https://github.com/davidmcbee/Movies-ETL/blob/master/ETL_function_test.ipynb)
+available to view here (https://github.com/davidmcbee/Movies-ETL/blob/master/Resources/movies_metadata.csv) and the ratings csv file, available to view here (https://github.com/davidmcbee/Movies-ETL/blob/master/Resources/ratings.csv) where brought into a Jupyter notebook and put into dataframes. The Wikipedia json file
+was loaded into a list and then to a dataframe, avialable here (https://github.com/davidmcbee/Movies-ETL/blob/master/Resources/wikipedia-movies.json). The json code is available to view here (https://github.com/davidmcbee/Movies-ETL/blob/master/ETL_function_test.ipynb)
 
 ### Step 2, Clean Wikipedia Data
 I Re using code from the original project and step 1. This step 2 code is avialble to view here (https://github.com/davidmcbee/Movies-ETL/blob/master/ETL_clean_wiki_movies.ipynb) Step 2 steps were:
